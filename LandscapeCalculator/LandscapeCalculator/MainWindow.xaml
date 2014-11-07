@@ -27,15 +27,34 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Pool">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Pool Length (ft.)" HorizontalAlignment="Left" Margin="108,55,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="203,57,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Pool Width (ft.)" HorizontalAlignment="Left" Margin="112,88,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="203,90,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Pool Depth (ft.)" HorizontalAlignment="Left" Margin="111,121,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="203,122,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Pool Volume (ft.^3)" HorizontalAlignment="Left" Margin="89,152,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="203,154,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Calculate Volume" HorizontalAlignment="Left" Margin="78,207,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="203,207,0,0" VerticalAlignment="Top" Width="120"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Temperature Converter">
                 <Grid Background="#FFE5E5E5">
                     <TextBox HorizontalAlignment="Left" Height="23" Margin="10,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-                    <ComboBox HorizontalAlignment="Left" Margin="135,55,0,0" VerticalAlignment="Top" Width="45"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="135,55,0,0" VerticalAlignment="Top" Width="45">
+                        <ComboBoxItem Content="F"/>
+                        <ComboBoxItem Content="C"/>
+                    </ComboBox>
                     <Label Content="=" HorizontalAlignment="Left" Margin="226,51,0,0" VerticalAlignment="Top"/>
                     <TextBox HorizontalAlignment="Left" Height="23" Margin="287,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-                    <ComboBox HorizontalAlignment="Left" Margin="412,55,0,0" VerticalAlignment="Top" Width="45"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="412,55,0,0" VerticalAlignment="Top" Width="45">
+                        <ComboBoxItem Content="F"/>
+                        <ComboBoxItem Content="C"/>
+                    </ComboBox>
+                    <Button Content="Convert Temperature" HorizontalAlignment="Left" Margin="107,147,0,0" VerticalAlignment="Top" Width="130"/>
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="252,147,0,0" VerticalAlignment="Top" Width="75"/>
                 </Grid>
             </TabItem>
         </TabControl>
