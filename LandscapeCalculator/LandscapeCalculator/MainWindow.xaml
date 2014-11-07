@@ -11,7 +11,20 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Hot Tub">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <RadioButton Content="Round Tub" HorizontalAlignment="Left" Margin="195,19,0,0" VerticalAlignment="Top"/>
+                    <RadioButton Content="Oval Tub" HorizontalAlignment="Left" Margin="291,19,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="237,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="237,86,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="237,118,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="237,148,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                    <Label Content="Hot Tub Length (ft.)" HorizontalAlignment="Left" Margin="118,55,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Hot Tub Width (ft.)" HorizontalAlignment="Left" Margin="123,86,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Hot Tub Depth (ft.)" HorizontalAlignment="Left" Margin="122,118,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Hot Tub Volume (ft.^3)" HorizontalAlignment="Left" Margin="99,148,0,0" VerticalAlignment="Top"/>
+                    <Button Content="Calculate Volume" HorizontalAlignment="Left" Margin="99,195,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Clear" HorizontalAlignment="Left" Margin="237,195,0,0" VerticalAlignment="Top" Width="120"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Pool">
                 <Grid Background="#FFE5E5E5"/>
